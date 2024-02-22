@@ -1,0 +1,121 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-family: Roboto, sans-serif;
+}
+
+.product-card {
+  border: 1px solid #f3f3f3;
+  border-radius: 5px;
+  width: 200px;
+  padding: 32px 16px 16px;
+}
+
+.product-card__img {
+  width: 160px;
+  height: 134px;
+  margin: 0 auto;
+  display: block;
+}
+
+.product-card__title {
+  color: #060b35;
+  margin: 40px 0 4px;
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 18px;
+}
+
+.product-card__text {
+  color: #616070;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+.product-card__price-container {
+  justify-content: space-between;
+  align-items: center;
+  width: 166px;
+  height: 18px;
+  margin: 24px 0 16px;
+  display: flex;
+}
+
+.product-card__price-title {
+  color: #616070;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.product-card__price {
+  color: #060b35;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.product-card__button {
+  text-align: center;
+  color: #fff;
+  background-color: #00acdc;
+  border: none;
+  border-radius: 5px;
+  outline: none;
+  width: 166px;
+  height: 40px;
+  margin: 0 auto;
+  font-family: Roboto, sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 16px;
+  display: block;
+}
+
+.product-card__button--hover:hover {
+  color: #00acdc;
+  cursor: pointer;
+  background-color: #fff;
+  border: 1px solid #00acdc;
+}
+
+.reviews {
+  justify-content: space-between;
+  align-items: center;
+  height: 16px;
+  margin-top: 16px;
+  display: flex;
+}
+
+.reviews__stars {
+  align-items: center;
+  display: flex;
+}
+
+.reviews__star-item {
+  background-image: url("star.fa806e3c.svg");
+  background-position: center;
+  background-repeat: no-repeat;
+  width: 16px;
+  height: 16px;
+  margin-right: 4px;
+}
+
+.reviews__star-item:nth-child(-n+4) {
+  background-image: url("star-active.2be54011.svg");
+}
+
+.reviews__amount {
+  color: #060b35;
+  height: 13px;
+  font-size: 10px;
+  font-weight: 400;
+  line-height: 14px;
+}
+
+/*# sourceMappingURL=index.e378193d.css.map */
